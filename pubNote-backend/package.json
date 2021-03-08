@@ -1,0 +1,13 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+	"client": "cd pubNote && npm run build",
+    "server": "cd server && npm run build",
+	"start": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "dependencies": {
+
+  }
+}

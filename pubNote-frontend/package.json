@@ -1,0 +1,50 @@
+{
+  "name": "scrollmemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "server": "node src/server/Server.js",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/zeichi11/scrollMemo"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.2",
+    "mini-css-extract-plugin": "^1.3.9",
+    "mongoose": "^5.11.19",
+    "morgan": "~1.9.0",
+    "react": "^16.6.3",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.6.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "scss-loader": "0.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.4.0"
+  }
+}

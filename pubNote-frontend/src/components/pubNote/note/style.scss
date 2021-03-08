@@ -1,0 +1,35 @@
+.note-wrapper {
+}
+
+//fixed, top 0로 상단 고정
+.note-cover {
+  position: fixed;
+  top: 0px;
+  z-index: 0;
+}
+
+.note-cover-inner {
+  position: relative;
+  width: inherit;
+  height: inherit;
+  background: url('https://www.adobe.com/content/dam/cc/us/en/creative-cloud/photography/discover/landscape-photography/CODERED_B1_landscape_P2d_714x348.jpg.img.jpg') no-repeat;
+  background-size: cover;
+}
+
+// relative 및 배경색 설정으로 스크롤 시 cover 위로 section 영역이 올라타는 모양으로 내용 스크롤 됨
+.note-section {
+  position: relative;
+  width : 100%;
+  text-align: center;
+  background: #ffffff;
+}
+
+.note-section-frame {
+  display: inline-block;
+  width : 60%;
+  margin: 0;
+}
+
+.note-footer {
+
+}

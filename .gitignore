@@ -1,0 +1,27 @@
+# Dependency directories & files
+node_modules/
+package-lock.json
+
+# IDEA
+.idea/
+*.iml
+
+# etc
+public/
+public/bundle.js
+
+#pubNote-frontend
+pubNote-frontend/.idea/
+pubNote-frontend/*.iml
+pubNote-frontend/package-lock.json
+pubNote-frontend/public/
+pubNote-frontend/node_modules/
+pubNote-frontend/bin/
+
+#pubNote-backend
+pubNote-backend/.idea/
+pubNote-backend/*.iml
+pubNote-backend/package-lock.json
+pubNote-backend/public/
+pubNote-backend/node_modules/
+pubNote-backend/bin/
