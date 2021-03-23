@@ -13,9 +13,9 @@ const defaultProps = {
 	onRandomizeColor: createWarning('onRandomizeColor'),
 };
 
-export default class extends Component{
-	constructor() {
-		super();
+export default class extends Component {
+	constructor(props) {
+		super(props);
 	}
 
 	render() {

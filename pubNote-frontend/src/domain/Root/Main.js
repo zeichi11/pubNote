@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SlideBanner from '../../components/View/SlideBanner'
+import SlideBanner from '../../components/View/CarouselSlide';
 
-export default class extends Component () {
+export default class extends Component {
 	constructor() {
 		super();
 	}

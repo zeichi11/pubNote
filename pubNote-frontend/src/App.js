@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Route, BrowserRouter } from "react-router-dom";
 
-import Home from './domain/Home';
+import Root from './domain/Root';
 import User from './domain/User';
 import Login from './domain/Login';
 import Join from './domain/Join';
@@ -11,7 +11,7 @@ import Edit from './domain/Edit';
 const App = () => {
 	return (
 		<BrowserRouter>
-			<Route exact path='/' component={Home}/>
+			<Route exact path='/' component={Root}/>
 			<Route path='/User' component={User}/>
 			<Route path='/Login' component={Login}/>
 			<Route path='/Join' component={Join}/>

@@ -4,10 +4,10 @@ import Button from './Button';
 import Indicator from './Indicator';
 import './style.scss';
 
-export default function () {
+export default function (props) {
 	const convertBannerListToComponent = (bannerList) => {
 		return bannerList.map((banner, index) => {
-			return (<Banner index={index}
+			return (<Banner key={index}
 							title={banner.title}
 							imgUrl={banner.imgUrl}
 							linkTo={banner.linkTo}/>);
@@ -16,7 +16,7 @@ export default function () {
 
 	return (
 		<div className='slide'>
-			{convertBannerListToComponent(this.props.bannerList)}
+			{convertBannerListToComponent(props.bannerList)}
 		</div>
 	);
 };
