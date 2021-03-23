@@ -6,7 +6,7 @@ class Article extends Component {
 	render() {
 		return (
 			<li className={'article'}>
-				<div style={{'height': '230px', 'width': '195px', 'border': '1px solid grey'}}/>
+				<div style={{'height': '230px', 'width': '195px', 'border': '1px solid #b8b8b8'}}/>
 				{/*<Title/>*/}
 				{/*<Thumbs/>*/}
 			</li>

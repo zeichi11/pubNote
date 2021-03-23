@@ -1,2 +1,0 @@
-# scrollMemo
-scrollable memo application

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Route, BrowserRouter } from "react-router-dom";
 
+import Home from './domain/Home';
 import User from './domain/User';
 import Login from './domain/Login';
 import Join from './domain/Join';
@@ -10,7 +11,8 @@ import Edit from './domain/Edit';
 const App = () => {
 	return (
 		<BrowserRouter>
-			<Route exact path='/' component={User}/>
+			<Route exact path='/' component={Home}/>
+			<Route path='/User' component={User}/>
 			<Route path='/Login' component={Login}/>
 			<Route path='/Join' component={Join}/>
 			<Route path='/View' component={View}/>

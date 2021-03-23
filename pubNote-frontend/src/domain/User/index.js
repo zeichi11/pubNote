@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Note from '../../components/pubNote/note/Note';
+import { Link } from 'react-router-dom';
 import './style.scss';
 
 class User extends Component {
@@ -32,6 +33,7 @@ class User extends Component {
 				{/*<div className={'let-area'}/>*/}
 				<div className={'note-area'}><Note browserWidth={width} browserHeight={height}/></div>
 				{/*<div className={'right-area'}/>*/}
+				<Link to='/Home'>go to Home</Link>
 			</div>
 		)
 	}
